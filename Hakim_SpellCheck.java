@@ -59,8 +59,8 @@ public class Hakim_SpellCheck extends JPanel implements ActionListener
 		{
 			String driver = "com.mysql.jdbc.Driver";
 			String url = "jdbc:mysql://localhost:3306/Spelling";
-			String username = "root";
-			String password = "antor1124";
+			String username = "*username*";
+			String password = "*password*";
 			Class.forName(driver);
 			
 			Connection conn = DriverManager.getConnection(url,username,password);
